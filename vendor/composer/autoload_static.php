@@ -4,12 +4,12 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit0e45ffd7e6677534cfaef5e1875f5062
+class ComposerStaticInite8ab60c4c330d2abacd6a424e60a35d3
 {
     public static $files = array (
         '7b11c4dc42b3b3023073cb14e519683c' => __DIR__ . '/..' . '/ralouphie/getallheaders/src/getallheaders.php',
-        'c964ee0ededf28c96ebd9db5099ef910' => __DIR__ . '/..' . '/guzzlehttp/promises/src/functions_include.php',
         '6e3fae29631ef280660b3cdad06f25a8' => __DIR__ . '/..' . '/symfony/deprecation-contracts/function.php',
+        'c964ee0ededf28c96ebd9db5099ef910' => __DIR__ . '/..' . '/guzzlehttp/promises/src/functions_include.php',
         '37a3dc5111fe8f707ab4c132ef1dbc62' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/functions_include.php',
     );
 
@@ -28,15 +28,15 @@ class ComposerStaticInit0e45ffd7e6677534cfaef5e1875f5062
         ),
         'A' => 
         array (
-            'Andihoerudin\\Dropboxservice\\' => 28,
+            'Andihoerudin\\Dropbox\\' => 21,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
         'Psr\\Http\\Message\\' => 
         array (
-            0 => __DIR__ . '/..' . '/psr/http-factory/src',
-            1 => __DIR__ . '/..' . '/psr/http-message/src',
+            0 => __DIR__ . '/..' . '/psr/http-message/src',
+            1 => __DIR__ . '/..' . '/psr/http-factory/src',
         ),
         'Psr\\Http\\Client\\' => 
         array (
@@ -58,7 +58,7 @@ class ComposerStaticInit0e45ffd7e6677534cfaef5e1875f5062
         array (
             0 => __DIR__ . '/..' . '/graham-campbell/guzzle-factory/src',
         ),
-        'Andihoerudin\\Dropboxservice\\' => 
+        'Andihoerudin\\Dropbox\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),
@@ -71,9 +71,9 @@ class ComposerStaticInit0e45ffd7e6677534cfaef5e1875f5062
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit0e45ffd7e6677534cfaef5e1875f5062::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit0e45ffd7e6677534cfaef5e1875f5062::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit0e45ffd7e6677534cfaef5e1875f5062::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInite8ab60c4c330d2abacd6a424e60a35d3::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInite8ab60c4c330d2abacd6a424e60a35d3::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInite8ab60c4c330d2abacd6a424e60a35d3::$classMap;
 
         }, null, ClassLoader::class);
     }

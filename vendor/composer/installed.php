@@ -5,7 +5,7 @@
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '41eebbfebe9f1e480032801c15a632a6af40aacd',
+        'reference' => 'a04f20dac9a7e3a3821c52c220ac71992e575410',
         'name' => 'andihoerudin/dropboxservice',
         'dev' => true,
     ),
@@ -16,7 +16,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '41eebbfebe9f1e480032801c15a632a6af40aacd',
+            'reference' => 'a04f20dac9a7e3a3821c52c220ac71992e575410',
             'dev_requirement' => false,
         ),
         'graham-campbell/guzzle-factory' => array(
