@@ -1,0 +1,21 @@
+{
+    "name": "andihoerudin/dropboxservice",
+    "description": "Dropbox PHP API V2 Library (Unofficial)",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "^6.5|^7.0.1",
+        "graham-campbell/guzzle-factory": "^5.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Andihoerudin\\Dropboxservice\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Andi Hoerduin",
+            "email": "andihoerudin24@gmail.com"
+        }
+    ]
+}
