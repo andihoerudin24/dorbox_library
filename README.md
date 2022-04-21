@@ -1,7 +1,7 @@
-Dropbox SDK v2 for PHP
+Dropbox SDK v2 for PHP LARAVEL
 ======================================================
 
-An unofficial PHP Library to work with the [Dropbox API v2](https://www.dropbox.com/developers/documentation/http/documentation).
+An unofficial PHP LARAVEL Library to work with the [Dropbox API v2](https://www.dropbox.com/developers/documentation/http/documentation).
 
 <img src="https://cloud.githubusercontent.com/assets/893057/13731118/b7cf0e4e-e987-11e5-942f-13c53d65da35.png">
 
