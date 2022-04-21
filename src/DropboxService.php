@@ -111,9 +111,14 @@ class DropboxService extends Dropboxendpoint implements DropboxBuilder
      */
     public function refreshToken(): mixed
     {
-        $refreshtoken = json_decode(Storage::disk('local')->get('getToken.json'));
-        $response = $this->authentication('grant_type', 'refresh_token', 'refresh_token', $refreshtoken->refresh_token);
-        return $response;
+        try {
+            $refreshtoken = json_decode(Storage::disk('local')->get('getToken.json'));
+            $response = $this->authentication('grant_type', 'refresh_token', 'refresh_token', $refreshtoken->refresh_token);
+            return $response;
+        } catch (\Throwable $th) {
+             //return error json 
+            return 'invalid dropbox code';
+        }
     }
 
     /**
